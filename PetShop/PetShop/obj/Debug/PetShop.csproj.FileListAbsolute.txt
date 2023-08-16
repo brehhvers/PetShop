@@ -1,0 +1,11 @@
+H:\Visual Studio 2022\Projects\PetShop\PetShop\bin\Debug\PetShop.exe.config
+H:\Visual Studio 2022\Projects\PetShop\PetShop\bin\Debug\PetShop.exe
+H:\Visual Studio 2022\Projects\PetShop\PetShop\bin\Debug\PetShop.pdb
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.csproj.AssemblyReference.cache
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.csproj.SuggestedBindingRedirects.cache
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.FrmHome.resources
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.Properties.Resources.resources
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.csproj.GenerateResource.cache
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.exe
+H:\Visual Studio 2022\Projects\PetShop\PetShop\obj\Debug\PetShop.pdb
