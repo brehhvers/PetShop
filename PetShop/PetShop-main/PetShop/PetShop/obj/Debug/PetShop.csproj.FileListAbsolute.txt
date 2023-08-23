@@ -20,3 +20,4 @@ H:\git\PetShop\PetShop-main\PetShop\PetShop\obj\Debug\PetShop.csproj.GenerateRes
 H:\git\PetShop\PetShop-main\PetShop\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
 H:\git\PetShop\PetShop-main\PetShop\PetShop\obj\Debug\PetShop.exe
 H:\git\PetShop\PetShop-main\PetShop\PetShop\obj\Debug\PetShop.pdb
+H:\git\PetShop\PetShop-main\PetShop\PetShop\obj\Debug\PetShop.CadastroAnimal.resources
