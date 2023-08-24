@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadastroAnimal.cs">
+    <Compile Include="AnimalBreedRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroAnimal.Designer.cs">
-      <DependentUpon>CadastroAnimal.cs</DependentUpon>
+    <Compile Include="AnimalBreedRegistration.Designer.cs">
+      <DependentUpon>AnimalBreedRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalRegisration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalRegisration.Designer.cs">
+      <DependentUpon>AnimalRegisration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalTypeRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalTypeRegistration.Designer.cs">
+      <DependentUpon>AnimalTypeRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -60,8 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CadastroAnimal.resx">
-      <DependentUpon>CadastroAnimal.cs</DependentUpon>
+    <EmbeddedResource Include="AnimalBreedRegistration.resx">
+      <DependentUpon>AnimalBreedRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimalRegisration.resx">
+      <DependentUpon>AnimalRegisration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimalTypeRegistration.resx">
+      <DependentUpon>AnimalTypeRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Home.cs</DependentUpon>
