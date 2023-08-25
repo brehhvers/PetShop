@@ -1,6 +1,6 @@
 ﻿namespace PetShop
 {
-    partial class AnimalRegisration
+    partial class ProductRegistration
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnimalRegisration));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductRegistration));
+            this.label8 = new System.Windows.Forms.Label();
+            this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtNickname = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.rdbMale = new System.Windows.Forms.RadioButton();
+            this.rdbFemale = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt = new System.Windows.Forms.TextBox();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblHour = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.veAgendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,33 +69,179 @@
             this.tabelaDeRecebimentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionárioDoMêsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.lblHour = new System.Windows.Forms.Label();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtNickname = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.rdbMale = new System.Windows.Forms.RadioButton();
-            this.rdbFemale = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnConfirm = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cmbAnimalBreed = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbAnimalType = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.btnConfirm = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(25, 33);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(116, 22);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Tipo de animal:";
+            // 
+            // sairToolStripMenuItem1
+            // 
+            this.sairToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("sairToolStripMenuItem1.Image")));
+            this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(93, 22);
+            this.sairToolStripMenuItem1.Text = "Sair";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.panel1.Controls.Add(this.txtNickname);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.dtpBirthday);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.rdbMale);
+            this.panel1.Controls.Add(this.rdbFemale);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.txt);
+            this.panel1.Controls.Add(this.lblDescription);
+            this.panel1.Location = new System.Drawing.Point(46, 127);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(345, 346);
+            this.panel1.TabIndex = 21;
+            // 
+            // txtNickname
+            // 
+            this.txtNickname.Font = new System.Drawing.Font("bizagi-font", 12F);
+            this.txtNickname.Location = new System.Drawing.Point(29, 131);
+            this.txtNickname.Name = "txtNickname";
+            this.txtNickname.Size = new System.Drawing.Size(259, 25);
+            this.txtNickname.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(25, 106);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(263, 22);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Como o pet gosta de ser chamado?";
+            // 
+            // dtpBirthday
+            // 
+            this.dtpBirthday.Font = new System.Drawing.Font("bizagi-font", 12F);
+            this.dtpBirthday.Location = new System.Drawing.Point(29, 266);
+            this.dtpBirthday.Name = "dtpBirthday";
+            this.dtpBirthday.Size = new System.Drawing.Size(259, 25);
+            this.dtpBirthday.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(25, 241);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(157, 22);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Data de nascimento:";
+            // 
+            // rdbMale
+            // 
+            this.rdbMale.AutoSize = true;
+            this.rdbMale.Font = new System.Drawing.Font("bizagi-font", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbMale.Location = new System.Drawing.Point(127, 201);
+            this.rdbMale.Name = "rdbMale";
+            this.rdbMale.Size = new System.Drawing.Size(63, 20);
+            this.rdbMale.TabIndex = 4;
+            this.rdbMale.TabStop = true;
+            this.rdbMale.Text = "Macho";
+            this.rdbMale.UseVisualStyleBackColor = true;
+            // 
+            // rdbFemale
+            // 
+            this.rdbFemale.AutoSize = true;
+            this.rdbFemale.Font = new System.Drawing.Font("bizagi-font", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbFemale.Location = new System.Drawing.Point(29, 201);
+            this.rdbFemale.Name = "rdbFemale";
+            this.rdbFemale.Size = new System.Drawing.Size(64, 20);
+            this.rdbFemale.TabIndex = 3;
+            this.rdbFemale.TabStop = true;
+            this.rdbFemale.Text = "Fêmea";
+            this.rdbFemale.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(25, 176);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 22);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Sexo:";
+            // 
+            // txt
+            // 
+            this.txt.Font = new System.Drawing.Font("bizagi-font", 12F);
+            this.txt.Location = new System.Drawing.Point(29, 58);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(259, 25);
+            this.txt.TabIndex = 1;
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(25, 33);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(77, 22);
+            this.lblDescription.TabIndex = 0;
+            this.lblDescription.Text = "Desrição:";
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.MediumSlateBlue;
+            this.lblDate.Location = new System.Drawing.Point(-459, -173);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(42, 20);
+            this.lblDate.TabIndex = 19;
+            this.lblDate.Text = "Data";
+            // 
+            // lblHour
+            // 
+            this.lblHour.AutoSize = true;
+            this.lblHour.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHour.ForeColor = System.Drawing.Color.MediumSlateBlue;
+            this.lblHour.Location = new System.Drawing.Point(-459, -152);
+            this.lblHour.Name = "lblHour";
+            this.lblHour.Size = new System.Drawing.Size(81, 25);
+            this.lblHour.TabIndex = 20;
+            this.lblHour.Text = "Horário";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Plum;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.homeToolStripMenuItem,
+            this.agendaToolStripMenuItem,
+            this.animaisToolStripMenuItem,
+            this.produtosToolStripMenuItem,
+            this.serviçosToolStripMenuItem,
+            this.funcionáriosToolStripMenuItem,
+            this.sairToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 18;
+            this.menuStrip1.Text = "menuStrip1";
             // 
             // homeToolStripMenuItem
             // 
@@ -282,180 +443,6 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
-            // sairToolStripMenuItem1
-            // 
-            this.sairToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("sairToolStripMenuItem1.Image")));
-            this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(93, 22);
-            this.sairToolStripMenuItem1.Text = "Sair";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Plum;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.homeToolStripMenuItem,
-            this.agendaToolStripMenuItem,
-            this.animaisToolStripMenuItem,
-            this.produtosToolStripMenuItem,
-            this.serviçosToolStripMenuItem,
-            this.funcionáriosToolStripMenuItem,
-            this.sairToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 10;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // lblHour
-            // 
-            this.lblHour.AutoSize = true;
-            this.lblHour.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHour.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.lblHour.Location = new System.Drawing.Point(-459, -152);
-            this.lblHour.Name = "lblHour";
-            this.lblHour.Size = new System.Drawing.Size(81, 25);
-            this.lblHour.TabIndex = 12;
-            this.lblHour.Text = "Horário";
-            // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.lblDate.Location = new System.Drawing.Point(-459, -173);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(42, 20);
-            this.lblDate.TabIndex = 11;
-            this.lblDate.Text = "Data";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.panel1.Controls.Add(this.txtNickname);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.dtpBirthday);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.rdbMale);
-            this.panel1.Controls.Add(this.rdbFemale);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.txtName);
-            this.panel1.Controls.Add(this.lblNome);
-            this.panel1.Location = new System.Drawing.Point(46, 127);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(345, 346);
-            this.panel1.TabIndex = 13;
-            // 
-            // txtNickname
-            // 
-            this.txtNickname.Font = new System.Drawing.Font("bizagi-font", 12F);
-            this.txtNickname.Location = new System.Drawing.Point(29, 131);
-            this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(259, 25);
-            this.txtNickname.TabIndex = 8;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 106);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(263, 22);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Como o pet gosta de ser chamado?";
-            // 
-            // dtpBirthday
-            // 
-            this.dtpBirthday.Font = new System.Drawing.Font("bizagi-font", 12F);
-            this.dtpBirthday.Location = new System.Drawing.Point(29, 266);
-            this.dtpBirthday.Name = "dtpBirthday";
-            this.dtpBirthday.Size = new System.Drawing.Size(259, 25);
-            this.dtpBirthday.TabIndex = 6;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(25, 241);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 22);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Data de nascimento:";
-            // 
-            // rdbMale
-            // 
-            this.rdbMale.AutoSize = true;
-            this.rdbMale.Font = new System.Drawing.Font("bizagi-font", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMale.Location = new System.Drawing.Point(127, 201);
-            this.rdbMale.Name = "rdbMale";
-            this.rdbMale.Size = new System.Drawing.Size(63, 20);
-            this.rdbMale.TabIndex = 4;
-            this.rdbMale.TabStop = true;
-            this.rdbMale.Text = "Macho";
-            this.rdbMale.UseVisualStyleBackColor = true;
-            // 
-            // rdbFemale
-            // 
-            this.rdbFemale.AutoSize = true;
-            this.rdbFemale.Font = new System.Drawing.Font("bizagi-font", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbFemale.Location = new System.Drawing.Point(29, 201);
-            this.rdbFemale.Name = "rdbFemale";
-            this.rdbFemale.Size = new System.Drawing.Size(64, 20);
-            this.rdbFemale.TabIndex = 3;
-            this.rdbFemale.TabStop = true;
-            this.rdbFemale.Text = "Fêmea";
-            this.rdbFemale.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 176);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 22);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Sexo:";
-            // 
-            // txtName
-            // 
-            this.txtName.Font = new System.Drawing.Font("bizagi-font", 12F);
-            this.txtName.Location = new System.Drawing.Point(29, 58);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(259, 25);
-            this.txtName.TabIndex = 1;
-            // 
-            // lblNome
-            // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(25, 33);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(105, 22);
-            this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome do pet:";
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Plum;
-            this.label4.Font = new System.Drawing.Font("bizagi-font", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label4.Location = new System.Drawing.Point(0, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(800, 51);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "CADASTRO DE ANIMAL";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnConfirm
-            // 
-            this.btnConfirm.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnConfirm.Location = new System.Drawing.Point(414, 442);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(342, 31);
-            this.btnConfirm.TabIndex = 15;
-            this.btnConfirm.Text = "Confirmar";
-            this.btnConfirm.UseVisualStyleBackColor = false;
-            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightPink;
@@ -466,7 +453,7 @@
             this.panel2.Location = new System.Drawing.Point(414, 127);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(345, 188);
-            this.panel2.TabIndex = 16;
+            this.panel2.TabIndex = 24;
             // 
             // cmbAnimalBreed
             // 
@@ -496,15 +483,27 @@
             this.cmbAnimalType.Size = new System.Drawing.Size(259, 24);
             this.cmbAnimalType.TabIndex = 1;
             // 
-            // label8
+            // btnConfirm
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(25, 33);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 22);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Tipo de animal:";
+            this.btnConfirm.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnConfirm.Location = new System.Drawing.Point(414, 442);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(342, 31);
+            this.btnConfirm.TabIndex = 23;
+            this.btnConfirm.Text = "Confirmar";
+            this.btnConfirm.UseVisualStyleBackColor = false;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Plum;
+            this.label4.Font = new System.Drawing.Font("bizagi-font", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label4.Location = new System.Drawing.Point(0, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(800, 51);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "CADASTRO DE PRODUTO";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
@@ -514,30 +513,30 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(170, 91);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
-            // AnimalRegisration
+            // ProductRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(800, 511);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnConfirm);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblHour);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btnConfirm);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox1);
             this.MaximumSize = new System.Drawing.Size(816, 550);
-            this.Name = "AnimalRegisration";
-            this.Text = "CadastroAnimal";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Name = "ProductRegistration";
+            this.Text = "ProductRegistration";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -548,6 +547,21 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox txtNickname;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dtpBirthday;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RadioButton rdbMale;
+        private System.Windows.Forms.RadioButton rdbFemale;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txt;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblHour;
+        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem veAgendaToolStripMenuItem;
@@ -555,6 +569,8 @@
         private System.Windows.Forms.ToolStripMenuItem animaisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem verAnimaisCadastradosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarTipoDeAnimalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarRaçaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem produtosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verListaToolStripMenuItem;
@@ -571,29 +587,12 @@
         private System.Windows.Forms.ToolStripMenuItem tabelaDeRecebimentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem funcionárioDoMêsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Label lblHour;
-        private System.Windows.Forms.Label lblDate;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.DateTimePicker dtpBirthday;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton rdbMale;
-        private System.Windows.Forms.RadioButton rdbFemale;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtNickname;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnConfirm;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarTipoDeAnimalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarRaçaToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cmbAnimalBreed;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbAnimalType;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnConfirm;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

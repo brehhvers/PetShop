@@ -179,7 +179,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.panel1.BackColor = System.Drawing.Color.Orchid;
             this.panel1.Controls.Add(this.btnSearch);
             this.panel1.Controls.Add(this.dgvTypes);
             this.panel1.Controls.Add(this.txtSearch);
@@ -235,9 +235,9 @@
             this.label8.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(25, 24);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 22);
+            this.label8.Size = new System.Drawing.Size(134, 22);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Criar novo tipo";
+            this.label8.Text = "Criar nova RAÇA:";
             // 
             // label4
             // 
@@ -299,8 +299,9 @@
             // 
             // homeToolStripMenuItem
             // 
+            this.homeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("homeToolStripMenuItem.Image")));
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.homeToolStripMenuItem.Text = "Home";
             // 
             // agendaToolStripMenuItem

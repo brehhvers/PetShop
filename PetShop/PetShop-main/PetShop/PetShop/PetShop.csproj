@@ -70,8 +70,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductRegistration.Designer.cs">
+      <DependentUpon>ProductRegistration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisteredAnimals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisteredAnimals.Designer.cs">
+      <DependentUpon>RegisteredAnimals.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnimalBreedRegistration.resx">
       <DependentUpon>AnimalBreedRegistration.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +96,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductRegistration.resx">
+      <DependentUpon>ProductRegistration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -93,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegisteredAnimals.resx">
+      <DependentUpon>RegisteredAnimals.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -62,12 +62,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dgvTypes = new System.Windows.Forms.DataGridView();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.dgvTypes = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtNewType = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.txtNewType = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTypes)).BeginInit();
@@ -78,7 +78,7 @@
             // 
             this.sairToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("sairToolStripMenuItem1.Image")));
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(93, 22);
             this.sairToolStripMenuItem1.Text = "Sair";
             // 
             // lblDate
@@ -122,8 +122,9 @@
             // 
             // homeToolStripMenuItem
             // 
+            this.homeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("homeToolStripMenuItem.Image")));
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.homeToolStripMenuItem.Text = "Home";
             // 
             // agendaToolStripMenuItem
@@ -361,15 +362,6 @@
             this.panel1.Size = new System.Drawing.Size(703, 249);
             this.panel1.TabIndex = 21;
             // 
-            // dgvTypes
-            // 
-            this.dgvTypes.BackgroundColor = System.Drawing.Color.LightSteelBlue;
-            this.dgvTypes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTypes.Location = new System.Drawing.Point(29, 75);
-            this.dgvTypes.Name = "dgvTypes";
-            this.dgvTypes.Size = new System.Drawing.Size(636, 150);
-            this.dgvTypes.TabIndex = 2;
-            // 
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.PowderBlue;
@@ -379,6 +371,15 @@
             this.btnSearch.TabIndex = 16;
             this.btnSearch.Text = "Consultar";
             this.btnSearch.UseVisualStyleBackColor = false;
+            // 
+            // dgvTypes
+            // 
+            this.dgvTypes.BackgroundColor = System.Drawing.Color.LightSteelBlue;
+            this.dgvTypes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTypes.Location = new System.Drawing.Point(29, 75);
+            this.dgvTypes.Name = "dgvTypes";
+            this.dgvTypes.Size = new System.Drawing.Size(636, 150);
+            this.dgvTypes.TabIndex = 2;
             // 
             // panel2
             // 
@@ -391,16 +392,15 @@
             this.panel2.Size = new System.Drawing.Size(703, 100);
             this.panel2.TabIndex = 23;
             // 
-            // label8
+            // btnAdd
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(25, 24);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 22);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Criar novo tipo";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.btnAdd.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnAdd.Location = new System.Drawing.Point(553, 49);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(112, 25);
+            this.btnAdd.TabIndex = 17;
+            this.btnAdd.Text = "Adicionar";
+            this.btnAdd.UseVisualStyleBackColor = false;
             // 
             // txtNewType
             // 
@@ -411,15 +411,16 @@
             this.txtNewType.TabIndex = 1;
             this.txtNewType.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // btnAdd
+            // label8
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnAdd.Location = new System.Drawing.Point(553, 49);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(112, 25);
-            this.btnAdd.TabIndex = 17;
-            this.btnAdd.Text = "Adicionar";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("bizagi-font", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(25, 24);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(125, 22);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Criar novo TIPO:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // AnimalTypeRegistration
             // 
